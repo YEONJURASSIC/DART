@@ -118,7 +118,7 @@ void main() {
   print ( func5( 1, 2, u:1, y:3 ) );
   
   // Dart required Dart 2.12x & Flutter 2.x // FLutter 1.x ver @required
-  // required 기본값 입력 불가
+  // required는 반드시 써줘야 하는거니까 기본값을 써주지 않아도 되는 것
   int func6({required int x, int y=0}) => x+2;
   
   print( func6(y:98, x: 98) );
